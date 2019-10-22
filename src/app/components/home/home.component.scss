@@ -1,0 +1,64 @@
+$bg_dark: #25271E;
+$pink: #ed1e79;
+.estad {
+  font-weight: 900;
+}
+.home-container {
+    background: $bg_dark;
+    width: 100%;
+    background-repeat: repeat;
+
+    .title-h {
+        //   font-size: 70px;
+          letter-spacing:-2px;
+          color: #ed1e79;
+          text-shadow:
+          0 0 2px #ed1e79,
+          0 0 6px #ed1e79;
+          -webkit-text-fill-color: #ed1e79;
+          -webkit-text-stroke-color:#ed1e79;
+          -webkit-text-stroke-width:0.2px;
+          animation: neon 2s infinite;
+    }
+    @keyframes neon {
+        0% {
+            color: #ed1e79;
+            text-shadow: 0 0 2px #ed1e79,
+                    0 0 6px #ed1e79;
+            -webkit-text-fill-color: #ed1e79;
+            -webkit-text-stroke-color:#ed1e79;
+        }
+        25% {
+          color: #5CCB3D;
+          text-shadow: 0 0 2px #5CCB3D,
+            0 0 6px #5CCB3D;
+          -webkit-text-fill-color: #5CCB3D;
+          -webkit-text-stroke-color: #5CCB3D;
+        }
+        50% {
+          color: #02D7E1;
+          text-shadow: 0 0 2px #02D7E1,
+            0 0 6px #02D7E1;
+          -webkit-text-fill-color: #02D7E1;
+          -webkit-text-stroke-color: #02D7E1;
+        }
+        75% {
+          color: #694FFB;
+          text-shadow: 0 0 2px #694FFB,
+            0 0 6px #694FFB;
+          -webkit-text-fill-color: #694FFB;
+          -webkit-text-stroke-color: #694FFB;
+        }
+        100% {
+          color: #B4093E;
+          text-shadow: 0 0 2px #B4093E,
+            0 0 6px #B4093E;
+          -webkit-text-fill-color: #B4093E;
+          -webkit-text-stroke-color: #B4093E;
+        }
+    }
+    p {
+        color: #fff;
+    }
+
+}

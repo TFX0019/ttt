@@ -1,0 +1,16 @@
+{
+  "home": {
+    "welcome": {
+      "title": "Welcome",
+      "text": "Welcome to Casin"
+    },
+    "sport": {
+      "title": "SPORTS",
+      "texto": "Lorem ipsum dolor, si"
+    },
+    "casino": {
+      "title": "CASINO",
+      "text": "Lorem ip"
+    }
+  }
+}
